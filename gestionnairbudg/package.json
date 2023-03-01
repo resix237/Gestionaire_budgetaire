@@ -1,0 +1,72 @@
+{
+  "name": "gestionnairbudg",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.1.1",
+    "@fortawesome/free-solid-svg-icons": "^6.1.1",
+    "@fortawesome/react-fontawesome": "^0.1.18",
+    "@headlessui/react": "^1.6.4",
+    "@heroicons/react": "^1.0.6",
+    "@material-tailwind/react": "^1.2.3",
+    "@react-pdf-viewer/core": "^3.6.0",
+    "@react-pdf-viewer/default-layout": "^3.6.0",
+    "@reduxjs/toolkit": "^1.8.5",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.3.0",
+    "@testing-library/user-event": "^13.5.0",
+    "aos": "^2.3.4",
+    "axios": "^0.27.2",
+    "country-flag-icons": "^1.5.5",
+    "file-saver": "^2.0.5",
+    "i18next": "^22.4.6",
+    "jwt-decode": "^3.1.2",
+    "pdfjs-dist": "^2.14.305",
+    "react": "^18.1.0",
+    "react-circular-progressbar": "^2.1.0",
+    "react-doc-viewer": "^0.1.5",
+    "react-dom": "^18.1.0",
+    "react-dropzone": "^14.2.2",
+    "react-google-recaptcha": "^2.1.0",
+    "react-i18next": "^12.1.1",
+    "react-icons": "^4.4.0",
+    "react-intl": "^6.2.5",
+    "react-modal": "^3.15.1",
+    "react-notifications": "^1.7.4",
+    "react-redux": "^8.0.2",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "5.0.1",
+    "tw-elements": "^1.0.0-alpha12",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "build-css": "tailwindcss -i ./src/styles/index.css -o ./public/index.css "
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.0.24"
+  }
+}
