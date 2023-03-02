@@ -23,6 +23,7 @@ function App() {
           <Route element={<Register />} path="/register" />
           <Route element={<Login />} path="/login" />
           <Route element={<Home />} path="/home" />
+          <Route element={<Login />} path="/*" />
         </Routes>
       </AuthProvider>
       <NotificationContainer />

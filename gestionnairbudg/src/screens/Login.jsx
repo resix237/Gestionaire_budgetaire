@@ -30,6 +30,7 @@ const Login = () => {
         localStorage.setItem("user", JSON.stringify(jwt_decode(data.access)));
         NotificationManager.success("Succes", "Sucess", 5000);
         navigate("/home");
+        navigate("/home");
       })
       .catch((e) => {
         NotificationManager.warning(

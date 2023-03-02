@@ -25,11 +25,19 @@ export const AuthProvider = (props) => {
       ? JSON.parse(localStorage.getItem("authTokens"))
       : null
   );
+  let LogoutUser = () => {
+    setAuthTokens(null);
+    setUser(null);
+    localStorage.removeItem("authTokens");
+    localStorage.removeItem("user");
+    navigate("/login");
+  };
 
   useEffect(() => {
     setContextData({
       authTokens: authTokens,
       user: user,
+      LogoutUser: LogoutUser,
     });
   }, []);
   return (
